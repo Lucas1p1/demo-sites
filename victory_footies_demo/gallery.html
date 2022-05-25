@@ -1,0 +1,139 @@
+﻿<html>
+<head>
+<title>Victory footies- Gallery Page</title>
+
+<link href="victory_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+
+<link href="css_javaCase/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/javaCase.1_2.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$().javaCase({
+			my_speed: 600, 
+			bg_alpha: 0.5, 
+			radius: 4, 
+			scrollImage : false, 
+			javaCase_next : 'piro_next',
+			javaCase_prev : 'piro_prev',
+			close_all : '.piro_close',
+			slideShow : 'slideshow', 
+			slideSpeed : 4 
+	});
+});
+</script>
+
+</head>
+<body> 
+
+<div id="victory_header_wrapper">
+	<div id="victory_header">
+    
+    	<div id="site_title">
+            <h1><a rel="nofollow" href="http://www.victory.com"><img src="images/victory_logo.png" alt="logo" /><span>Power to your steps</span></a></h1>
+        </div> 
+        
+    
+			     
+            <div id="search_box">
+                <form action="#" method="get">
+                    <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                  <input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+                </form>
+            </div>
+            	
+        </div>
+    
+    </div>
+</div>
+
+<div id="victory_middle_wrapper">
+	<div id="victory_middle">
+    
+    	<img src="images/victory_image_01.jpg" alt="Image 01" />
+        
+        <div id="middle_content">
+        	<h2>Lorem ipsum dolor sit amet</h2>
+            <p>Nullam in justo lacus, id viverra elit. Ut dignissim auctor purus, id vestibulum turpis rutrum eget. Maecenas ut ipsum pellentesque purus ullamcorper fringilla. Nunc in turpis non nisi egestas convallis in at massa.</p>
+            <div class="wwu_btn"><a href="#"></a></div>
+        </div>
+    
+    </div>
+</div>
+
+<div id="victory_menu">
+                
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="current">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>    	
+
+	<div class="raze"></div>
+</div> 
+    
+<div id="victory_content">
+
+	<h2>Our Galleries</h2>
+    <div id="gallery">
+       	<div class="g_box">
+            <a href="images/gallery/image_01_b.jpg" class="javaCase" title="Photo 1">
+                <img src="images/gallery/image_01.jpg" alt="Image 01" />
+            </a>
+            <p>Nunc suscipit nulla sit amet libero sollicitudin et hendrerit leo tempus.</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+        <div class="g_box">
+            <a href="images/gallery/image_02_b.jpg" class="javaCase" title="Photo 2"><img src="images/gallery/image_02.jpg" alt="Image 02" /></a>
+            <p>Vestibulum lacus nulla, tincidunt sed imperdiet at. Validate .</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+        <div class="g_box rm_col">
+            <a href="images/gallery/image_03_b.jpg" class="javaCase" title="Photo 3"><img src="images/gallery/image_03.jpg" alt="Image 03" /></a>
+            <p>Etiam eu ipsum a arcu sodales consequat sit amet at orci. Nulla in luctus elit.</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+        <div class="raze"></div>
+		
+        <div class="g_box">
+            <a href="images/gallery/image_04_b.jpg" class="javaCase" title="Photo 4"><img src="images/gallery/image_04.jpg" alt="Image 04" /></a>
+            <p>Divamus interdum, tortor at pellentesque pulvinar, diam quam blandit nulla.</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+        <div class="g_box">
+            <a href="images/gallery/image_05_b.jpg" class="javaCase" title="Photo 5"><img src="images/gallery/image_05.jpg" alt="Image 05" /></a>
+            <p>Integer fermentum arcu vitae sem condimentum vel posuere massa facilisis.</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+        <div class="g_box rm_col">
+            <a href="images/gallery/image_06_b.jpg" class="javaCase" title="Photo 6"><img src="images/gallery/image_06.jpg" alt="Image 06" /></a>
+            <p>Vivamus consectetur magna eget est commodo sed ullamcorper diam pharetra.</p>
+            <div class="button"><a href="#">Visit site</a></div>
+		</div>
+		
+    	<div class="raze"></div>
+    </div>
+	
+    <div class="raze"></div>
+</div>
+
+
+
+</body>
+</html>
